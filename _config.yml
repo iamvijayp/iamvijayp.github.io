@@ -1,0 +1,152 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Vijay P
+title: DevOps Engineer
+email: iamvijayp@hotmail.com
+website: https://iamvijayp.github.io/
+phone: +91 94001 51109
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  iamvijayp
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: iamvijayp
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Vijay and I'm a DevOps Engineer with 5 years of hands-on experience in automating software development and deployment processes. Proficient in using tools such as Jenkins, Git, Docker, Terraform, and Kubernetes to streamline CI/CD pipelines and increase system reliability. Skilled in collaborating with cross-functional teams to implement DevOps best practices, optimize system scalability, and ensure security compliance.
+
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: End-to-end CI/CD pipeline integrated with Argo CD
+        link: https://github.com/iamvijayp/docker-maven-project
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          In my GitOps project using Argo CD, I implemented an automated CI/CD pipeline to enable seamless application deployments. The pipeline integrated various tools, including Jenkins for continuous integration, SonarQube for code quality analysis, and Docker for containerization. I set up Jenkins to build the application code, run tests, and trigger SonarQube scans for code quality checks. Once the code passed all quality checks, I used Docker to build the container image and pushed it to Docker Hub. Finally, Argo CD synchronized the desired state from the Git repository and ensured the deployment of the latest Docker image to the Kubernetes cluster. This GitOps-based CI/CD pipeline allowed for efficient and automated application updates while maintaining code quality and consistency throughout the process.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Ernst & Young, Thiruvananthapuram
+        link: https://www.ey.com/
+        # link_text: boringcompany.com
+        sub_title: Senior Software Engineer(DevOps)
+        caption: July 2021 - May 2023
+        quote: >
+          Bridging gaps, solving problems, and empowering teams with seamless collaboration
+        description: | # this will include new lines to allow paragraphs
+            As a DevOps engineer, I worked in this position for two years, specializing in streamlining software development processes and fostering seamless collaboration between teams. During this time, I gained expertise in tools such as Docker, Kubernetes, Jenkins, and Git, enabling me to automate workflows, optimize infrastructure, and effectively resolve technical issues. I proactively sought opportunities for improvement and thrived in cross-functional environments, working collaboratively to deliver scalable and reliable solutions.
+      - layout: left
+        title: Upwork(Professional Freelancer), Remote
+        link: https://www.upwork.com/
+        # link_text: boringcompany.com
+        sub_title: Cloud Operations Engineer
+        caption: October 2017 - June 2021
+        quote: >
+          Transforming challenges into opportunities, delivering reliable solutions with agility and expertise.
+        description: | # this will include new lines to allow paragraphs
+            As a freelance Cloud Operations Engineer, I excelled in managing and optimizing cloud infrastructure. With my expertise in AWS and a strong focus on automation, I ensured the reliability and scalability of cloud-based systems. Thriving in fast-paced, collaborative environments, I delivered efficient and cost-effective solutions. My dedication to operational excellence drove continuous improvements in cloud operations, resulting in outstanding outcomes for my clients.
+      - layout: left
+        title: Rheocon Internet Private Limited, Kochi
+        link: https://rheocon.in/
+        # link_text: boringcompany.com
+        sub_title: Junior Systems Engineer
+        caption: May 2016 - September 2017
+        quote: >
+           Harnessing the power of the cloud to solve problems, drive efficiency, and deliver scalable solutions.
+        description: | # this will include new lines to allow paragraphs
+            As a Junior Systems Engineer, I collaborated with skilled software engineers to define, construct, and maintain cloud infrastructure. I took responsibility for overseeing and monitoring systems across diverse cloud and in-house environments. By utilizing tools like New Relic and Zabbix, I ensured optimal availability and performance.
+
+            My role also involved configuring various servers to support critical services. This included setting up DNS, FTP, Apache, Nginx, Exim, Postfix, Tomcat and R1soft backup servers. I actively managed server migration initiatives and resource expansions. This encompassed tasks such as adding disk space, memory, CPU, and coordinating hardware replacements with data center technicians.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: CEC College of Engineering, Chengannur
+        caption: 2011 - 2015
+        sub_title: Bachelor of Technology (BTech) in Computer Science & Engineering
+        quote: >
+          CEC College of Engineering, Chengannur is a renowned institution known for its quality education, advanced infrastructure, and industry-oriented approach towards engineering education.
+        description: | # this will include new lines to allow paragraphs
+          During my time at CEC I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time as CEC and learnt a lot about a healthy work life balance.
+
+  - title: Certifications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Certified Kubernetes Administrator (CKA)
+      - AWS Certified SysOps Administrator - Associate
+      - AWS Certified Solutions Architect - Associate
+      - ITIL v4 Foundation Level
+      - AZ-900: Microsoft Azure Fundamentals
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Cycling
+      - Traveling
+      - Photography
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
