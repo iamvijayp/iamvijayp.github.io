@@ -52,24 +52,24 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: End-to-end CI/CD pipeline integrated with Argo CD
-        link: https://github.com/iamvijayp/docker-maven-project
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          In my GitOps project using Argo CD, I implemented an automated CI/CD pipeline to enable seamless application deployments. The pipeline integrated various tools, including Jenkins for continuous integration, SonarQube for code quality analysis, and Docker for containerization. I set up Jenkins to build the application code, run tests, and trigger SonarQube scans for code quality checks. Once the code passed all quality checks, I used Docker to build the container image and pushed it to Docker Hub. Finally, Argo CD synchronized the desired state from the Git repository and ensured the deployment of the latest Docker image to the Kubernetes cluster. This GitOps-based CI/CD pipeline allowed for efficient and automated application updates while maintaining code quality and consistency throughout the process.
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: End-to-end CI/CD pipeline integrated with Argo CD
+  #       link: https://github.com/iamvijayp/docker-maven-project
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         In my GitOps project using Argo CD, I implemented an automated CI/CD pipeline to enable seamless application deployments. The pipeline integrated various tools, including Jenkins for continuous integration, SonarQube for code quality analysis, and Docker for containerization. I set up Jenkins to build the application code, run tests, and trigger SonarQube scans for code quality checks. Once the code passed all quality checks, I used Docker to build the container image and pushed it to Docker Hub. Finally, Argo CD synchronized the desired state from the Git repository and ensured the deployment of the latest Docker image to the Kubernetes cluster. This GitOps-based CI/CD pipeline allowed for efficient and automated application updates while maintaining code quality and consistency throughout the process.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
