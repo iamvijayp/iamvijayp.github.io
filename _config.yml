@@ -75,7 +75,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Ernst & Young, Thiruvananthapuram
+        title: "Ernst & Young | Thiruvananthapuram"
         link: https://www.ey.com/
         # link_text: boringcompany.com
         sub_title: Senior Software Engineer(DevOps)
@@ -85,7 +85,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             As a DevOps engineer, I worked in this position for two years, specializing in streamlining software development processes and fostering seamless collaboration between teams. During this time, I gained expertise in tools such as Docker, Kubernetes, Jenkins, and Git, enabling me to automate workflows, optimize infrastructure, and effectively resolve technical issues. I proactively sought opportunities for improvement and thrived in cross-functional environments, working collaboratively to deliver scalable and reliable solutions.
       - layout: left
-        title: Upwork(Professional Freelancer), Remote
+        title: "Upwork | Remote"
         link: https://www.upwork.com/
         # link_text: boringcompany.com
         sub_title: Cloud Operations Engineer
@@ -95,7 +95,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             As a freelance Cloud Operations Engineer, I excelled in managing and optimizing cloud infrastructure. With my expertise in AWS and a strong focus on automation, I ensured the reliability and scalability of cloud-based systems. Thriving in fast-paced, collaborative environments, I delivered efficient and cost-effective solutions. My dedication to operational excellence drove continuous improvements in cloud operations, resulting in outstanding outcomes for my clients.
       - layout: left
-        title: Rheocon Internet Private Limited, Kochi
+        title: "Rheocon Internet Private Limited | Kochi"
         link: https://rheocon.in/
         # link_text: boringcompany.com
         sub_title: Junior Systems Engineer
